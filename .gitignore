@@ -1,0 +1,47 @@
+
+# Audio datasets
+dataset/
+dataset_processed/
+dataset_v2/
+test_dataset/
+test_independent/
+test_queries/
+
+# Audio and archives
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.flac
+*.webm
+*.zip
+
+# Generated feature data and results
+output/
+features_60d*.csv
+test_features_60d*.csv
+*.npz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment and passwords
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# PostgreSQL backups
+*.dump
+*.backup
+
+# IDE and temporary files
+.vscode/
+.idea/
+*.log
+*.tmp
